@@ -1,5 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import "./App.scss";
+import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
 import About from "./pages/about/index";
 import Home from "./pages/home";
 import Resume from "./pages/resume";
@@ -7,11 +9,17 @@ import Skills from "./pages/skills";
 import Portfolio from "./pages/portfolio";
 import Contact from "./pages/contact";
 import Navbar from "./components/Navbar";
+import particles from "./utils/particles";
+
 function App() {
+  const handleInit = async (main) => {
+    await loadFull(main);
+  };
+
   return (
     <div className="App">
       {/* {particles.js} */}
-
+      <Particles id="particles" options={particles} init={handleInit} />
       {/* navbar */}
       <Navbar />
       {/* main page content */}
