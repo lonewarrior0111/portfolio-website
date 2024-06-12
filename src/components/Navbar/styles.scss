@@ -7,24 +7,24 @@
     font-size: 1.2rem;
     position: sticky;
 
-    &__container{
+    &_container{
         display: flex;
         align-items: center;
         width: 100%;
         height: inherit;
         padding: 0px 20px;
         flex: 1;
-        &__logo{
+        &_logo{
             color: var(--yellow-theme-main-color);
             cursor: pointer;
         }
 
-        &__menu{
+        &_menu{
             display: flex;
             list-style: none;
             text-align: center;
 
-            &__item{
+            &_item{
                 line-height: 40px;
                 margin-right: 1.5rem;
                 font-size: 1.6rem;
@@ -43,7 +43,7 @@
                     background: var(--yellow-theme-main-color);
                 }
 
-                &__links{
+                &_links{
                     color: var(--yellow-theme-main-color);
                     text-decoration: none;
                     padding: 0.5rem;
@@ -58,7 +58,7 @@
 }
 
 @media only screen and (max-width : 768px){
-    .navbar__container__menu{
+    .navbar_container_menu{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -75,7 +75,7 @@
             opacity: 1;
         }
 
-        &__item{
+        &_item{
             border-bottom: 1px solid #282828;
             margin: 0px;
             padding: 20px 0px; 
