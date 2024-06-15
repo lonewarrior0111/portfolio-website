@@ -1,5 +1,6 @@
 import { BsInfoCircleFill } from "react-icons/bs";
 import PageHeader from "../../components/PageHeaderContent";
+import { Link } from "react-router-dom";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -9,6 +10,7 @@ import { IoSchool } from "react-icons/io5";
 import "./styles.scss";
 import { data } from "./utils";
 import "react-vertical-timeline-component/style.min.css";
+import resume from "../../resume/resume.pdf";
 
 // function Resume() {
 //   return (
@@ -132,6 +134,9 @@ const Resume = () => {
               </VerticalTimelineElement>
             ))}
           </VerticalTimeline>
+          {/* <Link to={resume} download>
+            <button>Download resume</button>
+          </Link> */}
         </div>
         <div className="timeline_education">
           <h3 className="timeline_education_header-text">Education</h3>
