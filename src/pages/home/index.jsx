@@ -13,7 +13,7 @@ function Home() {
     <section id="home" className="home">
       <div className="home_text-wrapper">
         <h1>
-          Hello! I'm Shubham Singh Parihar,
+          Hello! I'm John Doe,
           <br />
           I'm an aspiring MERN stack developer
         </h1>

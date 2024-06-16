@@ -97,6 +97,21 @@
 //     font-weight: 500;
 
 // }
+button{
+    cursor: pointer;
+    padding: 10px 70px;
+    font-size: 2rem;
+    background: transparent;
+    color: var(--yellow-theme-main-color);
+    border: 1.5px solid var(--yellow-theme-main-color);
+    border-radius: 4px;
+    font-weight: 500;
+
+    &:hover{
+        color: #000;
+        background: var(--yellow-theme-main-color);
+    }
+}
 @media only screen and (max-width : 768px){
     .timeline{
         flex-direction: column;

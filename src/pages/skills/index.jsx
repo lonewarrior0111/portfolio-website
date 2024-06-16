@@ -58,8 +58,7 @@
 
 // export default Skills;
 
-import { Line, Circle } from "rc-progress";
-// import React from "react";
+import { Line } from "rc-progress";
 import { BsInfoCircleFill } from "react-icons/bs";
 import { Animate, AnimateKeyframes } from "react-simple-animate";
 // import PageHeaderContent from "../../components/pageHeaderContent";

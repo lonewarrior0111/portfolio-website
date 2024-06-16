@@ -5,7 +5,6 @@ import { useState } from "react";
 import webDevDummy from "../../images/webDevDummy.jpg";
 import { Link } from "react-router-dom";
 
-
 const portfolioData = [
   {
     id: 2,
@@ -107,7 +106,7 @@ function Portfolio() {
                   {index === hoveredValue && (
                     <div>
                       <p>{item.name}</p>
-                      <Link to={item.link}>
+                      <Link to={item.link} target="_blank">
                         <button>Visit</button>
                       </Link>
                     </div>

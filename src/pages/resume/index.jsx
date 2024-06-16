@@ -134,9 +134,9 @@ const Resume = () => {
               </VerticalTimelineElement>
             ))}
           </VerticalTimeline>
-          {/* <Link to={resume} download>
+          <Link to={resume} target="blank">
             <button>Download resume</button>
-          </Link> */}
+          </Link>
         </div>
         <div className="timeline_education">
           <h3 className="timeline_education_header-text">Education</h3>
