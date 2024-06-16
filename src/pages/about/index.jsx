@@ -32,7 +32,6 @@ const jobSummary =
   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quae voluptas perspiciatis illum velit nesciunt quisquam eius aliquid omnis porro nobis optio et ad laborum fugiat, nisi molestias distinctio? Nesciunt hic dicta fugit. Nisi dolorem cupiditate, harum omnis, minus natus, dicta labore quasi magni exercitationem commodi aut aspernatur delectus nemo.";
 
 function About() {
-  // console.log(personalDetails);
   return (
     <section id="about" className="about">
       <PageHeader
@@ -82,17 +81,6 @@ function About() {
           </Animate>
         </div>
         <div className="about_content_servicesWrapper">
-          {/* <Animate
-            play
-            duration={1.5}
-            delay={1}
-            start={{
-              transform: "translateX(500px)",
-            }}
-            end={{
-              transform: "translatex(0px)",
-            }}
-          > */}
           <div className="about_content_servicesWrapper_innerContent">
             <div>
               <IoLogoJavascript
@@ -110,7 +98,6 @@ function About() {
               <FaNodeJs size={60} color="var( --yellow-theme-main-color)" />
             </div>
           </div>
-          {/* </Animate> */}
         </div>
       </div>
     </section>
